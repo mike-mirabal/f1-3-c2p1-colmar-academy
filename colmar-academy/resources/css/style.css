@@ -1,0 +1,547 @@
+/* Universal */
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', Helvetica, Sans-serif;
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 751px) {
+
+  #mobile {
+    display: none;
+  }
+
+/* Outer Container - Desktop - 24px Margin Left */
+
+  .desktop-container {
+    margin-left: 1.5rem;
+  }
+
+/* Headings and Paragraphs - Desktop */
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+/* Header - Desktop - Company & Navigation */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 1px 4px gray;
+  }
+
+  .company {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+
+  #colmar {
+    font-weight: 800;
+  }
+
+  #academy {
+    font-weight: 300;
+    color: gray;
+  }
+
+  header nav {
+    margin-right: .5rem;
+  }
+
+  header a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s linear 0.1s;
+  }
+
+  header a:hover {
+    color: gray;
+  }
+
+  header a:active {
+    color: white;
+  }
+
+  header li {
+    display: inline-block;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+/* Left / Right Columns - Desktop */
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 40%;
+  }
+
+/* Section 1 - Desktop - Leaarn Something New */
+
+  .section-1 {
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .section-1 .left,
+  .section-1 .right {
+    margin-top: 6rem;
+  }
+
+/* Section 1 - Left - Desktop */
+
+  .section-1 img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+  }
+
+/* Section 1 - Right - Desktop */
+
+  .section-1 .right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+  }
+
+  .section-1 h1 {
+    margin-bottom: 2rem;
+  }
+
+  .section-1 h3 {
+    margin-bottom: 2rem;
+    line-height: 1.75rem;
+  }
+
+/* Section 1 - Button - Desktop */
+
+  .section-1 a {
+    display: block;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem 0rem;
+    border-radius: 0.2rem;
+    transition: background-color 0.2s linear 0s;
+  }
+
+  .section-1 a:hover {
+    background-color: gray;
+  }
+
+  .section-1 a:active {
+    color: lightgray;
+  }
+
+
+/* Section 2 - Desktop - It doesn't hurt to keep practicing */
+
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+
+/* Section 2 - Left - Desktop */
+
+  .section-2 .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-2 .left img {
+    width: 100%;
+  }
+
+  .section-2 .left h2 {
+    margin: 2rem 0rem 1.5rem 0rem;
+  }
+
+  .section-2 .left p {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-2 .left span {
+    font-size: 0.8rem;
+  }
+
+/* Section 2 - Right - Desktop */
+
+  .section-2 .right {
+    height: 100%;
+    margin: 0rem 0rem 0rem 1.5rem;
+  }
+
+  .section-2 .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 30%;
+    width: 100%;
+  }
+
+  .section-2 .item img {
+    width: 35%;
+    height: auto;
+    margin: 1rem 1rem;
+  }
+
+  .section-2 .description {
+    width: 65%;
+  }
+
+  .section-2 .item:last-child {
+    background-color: lightgray;
+  }
+
+  .section-2 .item p {
+    line-height: 1.3rem;
+    font-weight: 300;
+    color: gray;
+    margin: .5rem .5rem .5rem 0rem;
+  }
+
+  .section-2 .item a {
+    font-weight: 300;
+    color: #3E92DC;
+    text-decoration: none;
+    transition: color .2s linear 0s;
+  }
+
+  .section-2 .item a:hover {
+    color: #2B7FC9;
+  }
+
+/* Section 3 - Start Learning - Desktop */
+
+  .section-3 h2 {
+    display: block;
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  .section-3 .subjects {
+    margin: 0rem 4.5rem 2rem 4.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify content: space-between;
+  }
+
+  .section-3 .subject {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: background-color .2s linear 0s;
+  }
+
+  @media only screen and (max-width: 1120px) {
+    .section-3 .subject {
+      width: 45%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 785px) {
+    .section-3 .subject {
+      width: 100%;
+    }
+  }
+
+  .section-3 .subject:hover {
+    background-color: lightgray;
+  }
+
+  .subject img {
+    width: 100%;
+  }
+
+  .description {
+    margin-left: 1rem;
+  }
+
+  .description h3 {
+    margin-top: 1rem;
+  }
+
+  .description .courses {
+    margin: .5rem 0rem .5rem 0rem;
+  }
+
+  .courses,
+  .description p {
+    color: gray;
+    font-weight: 300;
+    line-height: 1.25rem;
+  }
+
+/* Section 4 - Thesis - Desktop */
+
+  .section-4 h2 {
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  .section-4 video {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-4 .left p {
+    margin: .5rem 1rem 2rem 0rem;
+    line-height: 1.25rem;
+  }
+
+  .section-4 .exhibits {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .exhibits .right {
+    height: 100%;
+    margin: 0rem 0rem 0rem 1.5rem;
+  }
+
+  .exhibits .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 30%;
+    width: 100%;
+  }
+
+  .exhibits .item img {
+    width: 35%;
+    height: auto;
+    margin: 1rem 1rem;
+  }
+
+  .exhibits .item:first-child {
+    background-color: lightgray;
+  }
+
+  .exhibits .item h3 {
+    margin-bottom: 1rem;
+  }
+
+/* Footer - Desktop */
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem 3rem 2rem;
+  }
+
+  footer ul {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer a {
+    display: block;
+    padding: 0rem 1rem 0rem 1rem;
+    text-decoration: none;
+    transition: color 0.2s linear 0s;
+  }
+
+  footer span,
+  footer a {
+    color: gray;
+    font-weight: 300;
+  }
+
+  footer a:hover {
+    color: black;
+  }
+
+  footer a:active {
+    color: lightgray;
+  }
+
+}
+
+/* Mobile styles */
+
+@media only screen and (max-width: 750px) {
+
+  #desktop {
+    display: none;
+  }
+
+/* Headings and Paragraphs - Mobile */
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+
+
+/* Outer Container - Mobile - 16px margin */
+
+  .mobile-container {
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+/* Header - Mobile - Navigation Icons */
+
+  .navigation {
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center
+  }
+
+  .navigation li {
+    display: inline-block;
+  }
+
+  .navigation img {
+    margin-top: 1rem;
+  }
+
+/* Section 1 - Mobile - Learn something new */
+
+  .section-1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-1 a {
+    display: block;
+    width: 100%;
+    background-color: dimgray;
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.75rem 0rem;
+    margin-bottom: 2rem;
+  }
+
+/* Section 2 - Mobile - Orientation, Campus, Guest Lecture */
+
+  .item img {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+  }
+
+  .item h3,
+  .item p,
+  .item a {
+    margin-left: 1rem;
+  }
+
+  .item a {
+    color: #3E92DC;
+    transition: color .2s linear 0s;
+    text-decoration: none;
+    margin-bottom: 3rem;
+  }
+
+/* Section 3 - Mobile -  Start Learning */
+
+  .section-3 h2 {
+    text-align: center;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .link {
+    background-color: lightgray;
+    color: dimgray;
+    display: block;
+    text-align: left;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: .2rem;
+  }
+
+/* Section 4 - Mobile - Thesis Exhibits */
+
+  .section-4 h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+/* Footer - Mobile */
+
+  footer .copyright {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+}
